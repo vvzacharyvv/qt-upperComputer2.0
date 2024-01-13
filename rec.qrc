@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>stop.png</file>
+        <file>run.png</file>
+        <file>bofang.png</file>
+        <file>duankailianjie.png</file>
+        <file>lianjie.png</file>
+        <file>shuaxin.png</file>
+        <file>tingzhi.png</file>
+        <file>bihu.png</file>
+        <file>jiantou.png</file>
+        <file>down.png</file>
+        <file>left.png</file>
+        <file>right.png</file>
+        <file>up.png</file>
+    </qresource>
+</RCC>

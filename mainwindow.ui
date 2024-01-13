@@ -1,0 +1,4452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1311</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabwork">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1311</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>34</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="movable">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>初始化界面</string>
+     </attribute>
+     <widget class="QLineEdit" name="edit_ZeroSet_zRF">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_zLH">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_iniPositionSet1">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>460</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+      </property>
+      <property name="text">
+       <string>初始化1</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_yRF">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_yLF">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_xRH">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_zRH">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_yLH">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>95</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>LF</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_yRH">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_zLF">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>125</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>RF</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>40</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>185</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>RH</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>211</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+      </property>
+      <property name="text">
+       <string>初始位姿0位</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_xLF">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_xRF">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>70</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Y</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_ZeroSet_xLH">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>155</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>LH</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>100</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Z</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_zRF">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_zLH">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_yRF">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_yLF">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_xRH">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_zRH">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_yLH">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>365</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>LF</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_yRH">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_zLF">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>395</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>RF</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>40</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>455</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>RH</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>259</x>
+        <y>20</y>
+        <width>221</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+      </property>
+      <property name="text">
+       <string>初始位姿90偏执</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_xLF">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_xRF">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>70</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Y</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_90Set_xLH">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_42">
+      <property name="geometry">
+       <rect>
+        <x>425</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>LH</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>100</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Z</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_yRF">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>70</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Y</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>615</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>LF</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_xLH">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_xRH">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_xRF">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_zRH">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_46">
+      <property name="geometry">
+       <rect>
+        <x>705</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>RH</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_zLF">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_47">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>100</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>Z</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_yLH">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_yLF">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_zRF">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_yRH">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>70</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_48">
+      <property name="geometry">
+       <rect>
+        <x>645</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>RF</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_zLH">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>100</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_49">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>40</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="edit_180Set_xLF">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>40</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_50">
+      <property name="geometry">
+       <rect>
+        <x>675</x>
+        <y>20</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>LH</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>489</x>
+        <y>20</y>
+        <width>261</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+      </property>
+      <property name="text">
+       <string>初始位姿180度偏置</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>-10</y>
+        <width>281</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_180TurnSet_yRF">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>80</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_51">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>80</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>Y</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_52">
+       <property name="geometry">
+        <rect>
+         <x>95</x>
+         <y>30</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_xLH">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>50</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_xRH">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_xRF">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_zRH">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>110</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_53">
+       <property name="geometry">
+        <rect>
+         <x>185</x>
+         <y>30</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_zLF">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>110</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_54">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>110</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>Z</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_yLH">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>80</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_yLF">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>80</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_zRF">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>110</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_yRH">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>80</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_55">
+       <property name="geometry">
+        <rect>
+         <x>125</x>
+         <y>30</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_zLH">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>110</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_56">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>50</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>X</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TurnSet_xLF">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_57">
+       <property name="geometry">
+        <rect>
+         <x>155</x>
+         <y>30</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>281</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>初始位姿180turn</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>下压</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>140</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_90Trot_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>48</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>90度对脚</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90Trot_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>75</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90Trot_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90Trot_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>125</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_58">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_59">
+       <property name="geometry">
+        <rect>
+         <x>85</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_60">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_61">
+       <property name="geometry">
+        <rect>
+         <x>135</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>140</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_90Amble_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>48</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>90度缓步</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90Amble_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>75</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90Amble_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90Amble_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>125</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_62">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_63">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_64">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_65">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_5" native="true">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>140</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_180Trot_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>60</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>180度对脚</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180Trot_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>85</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180Trot_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180Trot_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>135</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_70">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_71">
+       <property name="geometry">
+        <rect>
+         <x>95</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_72">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_73">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_6" native="true">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>140</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_180Amble_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_74">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>60</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>180度缓步</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180Amble_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>85</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180Amble_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180Amble_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>135</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_75">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_76">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_77">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_78">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_7" native="true">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>260</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_90OuterTrot_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_79">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>80</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>90度外弧对脚</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90OuterTrot_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90OuterTrot_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90OuterTrot_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>155</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_80">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_81">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_82">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_83">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_8" native="true">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>260</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_90OuterAmble_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_84">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>80</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>90度外弧缓步</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90OuterAmble_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90OuterAmble_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90OuterAmble_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>155</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_85">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_86">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_87">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_88">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_9" native="true">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>260</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_90innerTrot_pressSet_lf_3">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_89">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>48</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>内弧对脚</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90innerTrot_pressSet_rf_3">
+       <property name="geometry">
+        <rect>
+         <x>75</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90innerTrot_pressSet_lh_3">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90innerTrot_pressSet_rh_3">
+       <property name="geometry">
+        <rect>
+         <x>125</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_90">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_91">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_92">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_93">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_10" native="true">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>260</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_90innerAmble_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_94">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>48</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>内弧缓步</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90innerAmble_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>75</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90innerAmble_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90innerAmble_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>125</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_95">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_96">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_97">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_98">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_11" native="true">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>360</y>
+        <width>201</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_90back_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_99">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>48</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>90度后退</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90back_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>75</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90back_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90back_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>125</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_100">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_101">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_102">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_103">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_12" native="true">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>360</y>
+        <width>211</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_180TrotTurn_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_104">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>180度转弯对脚</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TrotTurn_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>115</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TrotTurn_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180TrotTurn_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>165</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_105">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_106">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_107">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_108">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_13" native="true">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>360</y>
+        <width>251</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_180AmbleTurn_pressSet_lf">
+       <property name="geometry">
+        <rect>
+         <x>85</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_109">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+       </property>
+       <property name="text">
+        <string>180度转弯缓步</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180AmbleTurn_pressSet_rf">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180AmbleTurn_pressSet_lh">
+       <property name="geometry">
+        <rect>
+         <x>135</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_180AmbleTurn_pressSet_rh">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>30</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_110">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_111">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_112">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_113">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>461</y>
+        <width>91</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+      </property>
+      <property name="text">
+       <string>姿态调节</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>470</y>
+        <width>251</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <widget class="QLabel" name="label_66">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>StancePullHight</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_StancePullHight">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>10</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_67">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>StancePullHightDiag</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_StancePullHightDiag">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>50</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_68">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>transferForceX</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_transferForceX">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>90</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_14" native="true">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>90</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="edit_90innerTrot_pressSet_lf_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_114">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>48</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>内弧对脚2</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90innerTrot_pressSet_rf_2">
+       <property name="geometry">
+        <rect>
+         <x>75</x>
+         <y>30</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90innerTrot_pressSet_lh_2">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>30</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="edit_90innerTrot_pressSet_rh_2">
+       <property name="geometry">
+        <rect>
+         <x>125</x>
+         <y>30</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_115">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_116">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RF</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_117">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>LH</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_118">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>RH</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="btn_copy">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>620</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>备份</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_recover">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>620</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>恢复</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_iniPositionSet2">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>500</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+      </property>
+      <property name="text">
+       <string>初始化2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_iniPositionSet3">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>550</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 7pt &quot;Adobe 宋体 Std L&quot;;</string>
+      </property>
+      <property name="text">
+       <string>初始化3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_forward">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>530</y>
+        <width>61</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/up.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_right">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>620</y>
+        <width>81</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/right.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_left">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>620</y>
+        <width>81</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/left.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_back">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>690</y>
+        <width>61</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/down.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_down">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>690</y>
+        <width>61</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/down.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_up">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>530</y>
+        <width>61</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/up.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_lfControl">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>360</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>LF</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_rfControl">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>360</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>RF</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_lhControl">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>450</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>LH</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_rhControl">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>450</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>RH</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>工作界面</string>
+     </attribute>
+     <widget class="QPushButton" name="btn_motion">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>280</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>71</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>54</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>速度Y</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_vset">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>100</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_dset">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>40</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>54</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>速度X</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_gmset">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>220</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>220</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>步态模式 </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_tguset">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>280</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>280</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>周期</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_pset">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>340</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>340</y>
+        <width>54</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>下压</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_connect">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>130</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>71</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_refresh">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>170</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBT_Open">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>480</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>71</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_1">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>410</y>
+        <width>640</width>
+        <height>400</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(115, 210, 22);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PBT_Close">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>620</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>71</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_status">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>530</y>
+        <width>311</width>
+        <height>271</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>500</y>
+        <width>54</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>显示</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>160</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>速度alpha</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_vsetZ">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>160</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>10</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 12pt &quot;Adobe 宋体 Std L&quot;;
+border-color: rgb(0, 255, 0);
+color:rgb(255,0,0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cmb_GaitMode">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>220</y>
+        <width>155</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>对脚步态(90度)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>三脚步态(90度)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>对脚步态(180度)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>三脚步态(180度)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>外弧面缓步步态(90度)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>下爬</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>转弯</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>速度模式</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QSpinBox" name="spb_tgu">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>280</y>
+        <width>155</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>8</number>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="p_edit1">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>340</y>
+        <width>35</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>12</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="p_edit2">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>340</y>
+        <width>35</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>12</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="p_edit3">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>340</y>
+        <width>35</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>12</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="p_edit4">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>340</y>
+        <width>35</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>12</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>320</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>LF</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>320</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>RF</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>320</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>LH</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>320</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25 6pt &quot;Adobe 宋体 Std L&quot;;
+color: rgb(255, 85, 0);</string>
+      </property>
+      <property name="text">
+       <string>RH</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>400</y>
+        <width>54</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>气泵控制</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cmb_PumpMode">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>400</y>
+        <width>155</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>正压（全）</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>负压（全）</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>关</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="btn_pumpset">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>400</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_imdset">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>220</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>立即设置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_reset">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>460</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>复位</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_initRepeat">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>460</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>初始化</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>460</y>
+        <width>118</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="led_lf">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>30</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="led_rf">
+      <property name="geometry">
+       <rect>
+        <x>1190</x>
+        <y>30</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="led_lh">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>150</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="led_rh">
+      <property name="geometry">
+       <rect>
+        <x>1190</x>
+        <y>150</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="VZ_edit">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>160</y>
+        <width>155</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="d_edit">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>155</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="v_edit">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>100</y>
+        <width>155</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>40</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 6pt &quot;AcadEref&quot;;</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>40</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 6pt &quot;AcadEref&quot;;</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>100</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 6pt &quot;AcadEref&quot;;</string>
+      </property>
+      <property name="text">
+       <string>2.5</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>100</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 6pt &quot;AcadEref&quot;;</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_videoSet">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>370</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>视频流设置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>40</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>160</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0.01</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>160</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>-0.01</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="video_cmb">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>320</y>
+        <width>651</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>http://192.168.1.112:8080</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>http://192.168.1.115:8080</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>http://192.168.1.110:8080</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>http://192.168.1.113:8080</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>http://192.168.1.114:8080</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>http://192.168.50.196:8080</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>串口</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>60</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>serialport choose</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>480</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Serial port operation</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="accept_label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>accept</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>950</x>
+        <y>386</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Parity check</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cbx_setPortName">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>80</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cbx_setBaudRate">
+      <property name="geometry">
+       <rect>
+        <x>1040</x>
+        <y>150</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>8</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>1200</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2400</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>4800</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>9600</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>14400</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>19200</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>38400</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>76800</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>115200</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>128000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>460800</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>961200</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="btn_clear_rx">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>540</y>
+        <width>131</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>clear</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_clear_tx">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>490</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>clear</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_HexShow">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>300</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>HEX_Show</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cbx_setStopBits">
+      <property name="geometry">
+       <rect>
+        <x>1050</x>
+        <y>210</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>300</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Data bits</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_send">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>420</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>send</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_rx">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>781</width>
+        <height>281</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_tx">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>420</y>
+        <width>641</width>
+        <height>261</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>150</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Baud rate</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_open_close">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>540</y>
+        <width>131</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>open serialport</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="send_label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>370</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>send</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_timeStamp">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>612</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>time stamp</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>220</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stop bit</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cbx_setParity">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>390</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>none</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Odd Check</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Even Check</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="cbx_setDataBits">
+      <property name="geometry">
+       <rect>
+        <x>1050</x>
+        <y>290</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_HexSend">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>580</y>
+        <width>73</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>HEX_Send</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1311</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
