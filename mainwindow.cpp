@@ -480,6 +480,7 @@ void MainWindow::on_btn_gmset_clicked()//步态模式
     else if(ui->cmb_GaitMode->currentIndex()==5) str_set="08";
     else if(ui->cmb_GaitMode->currentIndex()==6) str_set="09";
     else if(ui->cmb_GaitMode->currentIndex()==7) str_set="0C";
+    else if(ui->cmb_GaitMode->currentIndex()==8) str_set="0D";
     if(ui->cmb_GaitMode->currentIndex()==0||ui->cmb_GaitMode->currentIndex()==2) ui->spb_tgu->setValue(4);
     if(ui->cmb_GaitMode->currentIndex()==1||ui->cmb_GaitMode->currentIndex()==3) ui->spb_tgu->setValue(8);
     str+=str_set;
