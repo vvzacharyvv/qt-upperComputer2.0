@@ -92,15 +92,19 @@ MainWindow::MainWindow(QWidget *parent)
     setLED(ui->led_rf,1,16);
     setLED(ui->led_lh,1,16);
     setLED(ui->led_rh,1,16);
+    setLED(ui->led_lf_ad,1,16);
+    setLED(ui->led_rf_ad,1,16);
+    setLED(ui->led_lh_ad,1,16);
+    setLED(ui->led_rh_ad,1,16);
     ui->VZ_edit->setMinimum(-10.00);
     ui->VZ_edit->setMaximum(10.00);
     ui->VZ_edit->setSingleStep(0.01);
     ui->d_edit->setMinimum(-10.00);
     ui->d_edit->setMaximum(10.00);
-    ui->d_edit->setSingleStep(0.01);
+    ui->d_edit->setSingleStep(0.1);
     ui->v_edit->setMinimum(-10.00);
     ui->v_edit->setMaximum(10.00);
-    ui->v_edit->setSingleStep(0.01);
+    ui->v_edit->setSingleStep(0.1);
     //init serial port and timer,scan available port.
     serialport=new QSerialPort(this);
     timer=new QTimer(this);
@@ -249,6 +253,10 @@ void MainWindow::serialPortReadyRead()
     if(ledStr=="rfC") setLED(ui->led_rf,0,16);
     if(ledStr=="lhC") setLED(ui->led_lh,0,16);
     if(ledStr=="rhC") setLED(ui->led_rh,0,16);
+    if(ledStr=="LFON") setLED(ui->led_lf_ad,2,16);
+    if(ledStr=="RFON") setLED(ui->led_rf_ad,2,16);
+    if(ledStr=="LHON") setLED(ui->led_lh_ad,2,16);
+    if(ledStr=="RHON") setLED(ui->led_rh_ad,2,16);
     for(int i=0;i<str.length()-6;i++)
     {
         if(str[i]=='w')
