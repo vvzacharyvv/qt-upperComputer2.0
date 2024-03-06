@@ -240,15 +240,15 @@ void MainWindow::serialPortReadyRead()
     //状态显示栏代码
     QString str;
     str=QString::fromLocal8Bit(temp);
-    QString ledStr=str.mid(0,3);
+    QString ledStr=str;
     if(ledStr=="lfN") setLED(ui->led_lf,2,16);
     if(ledStr=="rfN") setLED(ui->led_rf,2,16);
     if(ledStr=="lhN") setLED(ui->led_lh,2,16);
     if(ledStr=="rhN") setLED(ui->led_rh,2,16);
-    if(ledStr=="lfP") setLED(ui->led_lf,1,16);
-    if(ledStr=="rfP") setLED(ui->led_rf,1,16);
-    if(ledStr=="lhP") setLED(ui->led_lh,1,16);
-    if(ledStr=="rhP") setLED(ui->led_rh,1,16);
+    if(ledStr=="lfP") {setLED(ui->led_lf,1,16);setLED(ui->led_lf_ad,1,16);}
+    if(ledStr=="rfP") {setLED(ui->led_rf,1,16);setLED(ui->led_rf_ad,1,16);}
+    if(ledStr=="lhP") {setLED(ui->led_lh,1,16);setLED(ui->led_lh_ad,1,16);}
+    if(ledStr=="rhP") {setLED(ui->led_rh,1,16);setLED(ui->led_rh_ad,1,16);}
     if(ledStr=="lfC") setLED(ui->led_lf,0,16);
     if(ledStr=="rfC") setLED(ui->led_rf,0,16);
     if(ledStr=="lhC") setLED(ui->led_lh,0,16);
